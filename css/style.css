@@ -17,11 +17,11 @@
     max-width: 900px;
     min-height: 500px;
     margin: 0 auto;
-    background-color: rgb(231, 218, 198);
+    background-color: rgba(96, 96, 93, 0.563);
     border-radius: 50px 10px 50px 10px;
 }
 .main__top {
-    background-color: rgba(214, 203, 219, 0.958);
+    background-color: rgba(252, 252, 252, 0.569);
     border-radius: 50px 10px 0px 0px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -38,22 +38,35 @@
     padding: 5px 5px;
     font-size: 20px;
     border-radius: 0px 15px 0px 15px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(202, 169, 169, 0.563);
     margin-bottom: 10px;
     border: 1px solid black;
+    color:white;
+    transition: 0.5s;
 
     
+}
+input:focus{
+    box-shadow: 2px 2px 1px grey;
+    background-color:rgba(67, 64, 64, 0.292);
+    transition: 0.5s;
+}
+input:hover{
+    box-shadow: 3px 2px 1px rgba(47, 56, 52, 0.583);
+    transition: 0.5s;
 }
 
 
 
 .input__count {
+    transition: 0.5s;
+    color:white;
     margin-left: 5px;
     max-width: 120px;
     padding: 5px 5px;
     font-size: 20px;
     border-radius: 15px 0px 15px 0px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(202, 169, 169, 0.563);
     margin-bottom: 10px;
     border: 1px solid black;
     
@@ -72,20 +85,25 @@
     font-size: 20px;
     padding: 3px 5px;
     border-radius: 15px 0px 15px 0px;
-    background-color:rgba(67, 197, 136, 0.563);
+    background-color:rgba(128, 206, 209, 0.563);
     color: white;
     border: 1px solid black;
+    transition: 0.5s;
 }
 .btn-count {
     font-size: 20px;
     width: 120px;
     padding: 3px 5px;
     border-radius: 0px 15px 0px 15px;
-    background-color:rgba(67, 197, 136, 0.563);
+    background-color:rgba(128, 206, 209, 0.563);
     color: white;
     border: 1px solid black;
+    transition: 0.5s;
 }
-
+button:hover{
+    box-shadow: 3px 2px 1px rgba(47, 56, 52, 0.583);
+    transition: 0.5s;
+}
 .counts{
     padding-left: 5px;
     font-size: 24px;
@@ -95,19 +113,28 @@
 }
 .main__bottom {
     margin-top: 10px;
-    padding: 0px 20px;
     font-size: 20px;
 }
 
 
 .list__item {
+    text-shadow: 1px 1px 2px rgba(12, 5, 5, 0.139);
+    padding: 5px 20px 0px 20px;
+    color:white;
     font-size: 25px;
-    border-bottom: 1px soid grey;
+    border-bottom: 1px solid rgba(150, 226, 236, 0.5);
 }
 
 @media (max-width: 845px) {
     .input__text {max-width: 240px;}
 }
+@media (max-width: 845px) {
+    .input__text{max-width: 200px;}
+}
+@media (max-width: 680px) {
+    .input__text{max-width: 160px;}
+}
+
 @media (max-width: 465px) {
     .input__text{
         max-width: 120px;
