@@ -19,6 +19,8 @@
     margin: 0 auto;
     background-color: rgba(96, 96, 93, 0.563);
     border-radius: 50px 10px 50px 10px;
+    
+    box-shadow: 1px 1px 15px rgba(137, 229, 214, 0.167); 
 }
 .main__top {
     background-color: rgba(252, 252, 252, 0.569);
@@ -104,9 +106,10 @@ button:hover{
 }
 .counts{
     padding-left: 5px;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 700;
-    color: rgb(16, 163, 200);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
 
 }
 .main__bottom {
@@ -138,9 +141,11 @@ button:hover{
         max-width: 120px;
         height: 30px;}
     .input__count{
-        margin-right: 0px;
+        
+        margin-right: 5px;
         max-width: 120px;
         height: 30px;
     }
+    .counts{font-size: 25px;}
     
 }

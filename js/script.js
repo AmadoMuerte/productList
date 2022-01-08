@@ -21,7 +21,9 @@ addBtn.addEventListener('click', () => {
 
 calcBtn.addEventListener('click', () => {
     let sum = calcProduct(productList);
-    countTitle.innerText = `Сумма товаров - ${sum} руб`;
+    if (sum != 0) {
+        countTitle.innerText = `Сумма товаров - ${sum} руб`;
+    }
 });
 
 
