@@ -33,7 +33,6 @@
 }
 
 .input__text {
-    
     max-width: 300px;
     padding: 5px 5px;
     font-size: 20px;
@@ -43,8 +42,6 @@
     border: 1px solid black;
     color:white;
     transition: 0.5s;
-
-    
 }
 input:focus{
     box-shadow: 2px 2px 1px grey;
@@ -69,6 +66,8 @@ input:hover{
     background-color:rgba(202, 169, 169, 0.563);
     margin-bottom: 10px;
     border: 1px solid black;
+    margin-right: 10px;
+    
     
 }
 
@@ -79,7 +78,6 @@ input:hover{
     margin-bottom: 10px;
 }
 .btn-add {
-    margin-left: 5px;
     margin-right: 10px;
     width: 120px;
     font-size: 20px;
@@ -140,6 +138,7 @@ button:hover{
         max-width: 120px;
         height: 30px;}
     .input__count{
+        margin-right: 0px;
         max-width: 120px;
         height: 30px;
     }
