@@ -90,6 +90,10 @@ input:hover{
     border: 1px solid black;
     transition: 0.5s;
 }
+.btn-add:hover{
+    box-shadow: 3px 2px 1px rgba(47, 56, 52, 0.583);
+    transition: 0.5s;
+}
 .btn-count {
     font-size: 20px;
     width: 120px;
@@ -100,7 +104,7 @@ input:hover{
     border: 1px solid black;
     transition: 0.5s;
 }
-button:hover{
+.btn-count:hover{
     box-shadow: 3px 2px 1px rgba(47, 56, 52, 0.583);
     transition: 0.5s;
 }
@@ -148,4 +152,15 @@ button:hover{
     }
     .counts{font-size: 25px;}
     
+}
+
+.list__item-close {
+    padding-left: 5px;
+    color: rgba(216, 210, 210, 0.514);
+    transition: 0.3s;
+}
+.list__item-close:hover{
+    transition: 0.3s;
+    color: red;
+    cursor: pointer;
 }
